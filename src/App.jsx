@@ -57,6 +57,7 @@ const App = () => {
         
             
             <small>{todos.length} Que haceres restantes</small>
+            <small>{todos.length == 0 ? ", agregue una tarea" : ""}</small>
             
            
         </form>
